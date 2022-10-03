@@ -17,7 +17,7 @@ int main() {
 }
 
 int inputvalid(int num, int num2) {
-  if (num & num2 >= 0 && num > num2)
+  if ((num & num2 >= 0 && num > num2) || (num >num2))
     return 1;
   else
     return 0;
